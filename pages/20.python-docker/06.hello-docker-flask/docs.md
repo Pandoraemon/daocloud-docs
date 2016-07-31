@@ -79,7 +79,7 @@ RUN pip install -r ./requirements.txt
 - 启动应用进程
 
 ```dockerfile
-EXPOSE 80
+EXPOSE 5000
 ENTRYPOINT ["python"]
 CMD ["hello.py"]
 ```
@@ -123,15 +123,14 @@ CMD ["hello.py"]
 
 在应用详情页面，点击配置， 将容器端口修改为 5000，点击保存更改。
 
-![](log.PNG)
-
 - 查看日志
 
 点击日志，出现如下消息，应用已经运行。
 
+![](log.PNG)
+
 点击访问地址，即可在浏览器看到 Hello DaoCloud 。
 
-![](createApp.PNG)
 
 
 
