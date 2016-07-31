@@ -95,7 +95,7 @@ CMD ["hello.py"]
 
 点击开始创建。
 
-![](create-project.png)
+![](create-project.PNG)
 
 - 构建代码
 
@@ -103,27 +103,27 @@ CMD ["hello.py"]
 
 构建结束后构建记录中会显示执行成功。
 
-![](create-project2.png)
+![](create-project2.PNG)
 
 #### 部署镜像
 
 
 在构建记录页面点击查看镜像，然后点击部署最新版本。
 
-![](create-success.png)
+![](create-success.PNG)
 
 输入镜像名称，配置运行环境。
 
 点击基础配置，然后立即部署。
 
-![](createApp.png)
+![](createApp.PNG)
 
 
 - 修改容器端口
 
 在应用详情页面，点击配置， 将容器端口修改为 5000，点击保存更改。
 
-![](log.png)
+![](log.PNG)
 
 - 查看日志
 
@@ -131,7 +131,7 @@ CMD ["hello.py"]
 
 点击访问地址，即可在浏览器看到 Hello DaoCloud 。
 
-![](createApp.png)
+![](createApp.PNG)
 
 
 
