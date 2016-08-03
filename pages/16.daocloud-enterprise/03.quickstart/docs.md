@@ -31,6 +31,12 @@ DaoCloud 胶囊主机配备了 Docker 环境，无需再安装 Docker。
 
 ## 第二步 安装主控节点
 
+修改 docker.sock 的权限
+```
+chmod 666 /var/run/docker.sock
+```
+
+
 在终端中使用如下命令安装 DCE。
 ```
 bash -c "$(docker run -i --rm daocloud.io/daocloud/dce install)"
